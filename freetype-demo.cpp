@@ -194,7 +194,7 @@ int main(){
 void InitWindow()
 {
     glfwInit();
-    // Do not do this settings, otherwise textrendering can not work.
+    // Do not do these settings, otherwise textrendering can not work.
 //    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 //    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 //    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
