@@ -112,7 +112,7 @@ CharTexture* TextRenderer::GetTextChar(char ch)
 
 void TextRenderer::DrawText(std::string str, int x0, int y0)
 {
-    float x = x0 / WindowWidth * 2, y = y0 / WindowHeight * 2;
+    float x = x0 * 1.0f / WindowWidth * 2, y = y0 * 1.0f / WindowHeight * 2;
     float w, h, ch_x, ch_y;
 
 
